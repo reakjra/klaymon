@@ -3,14 +3,14 @@
 <h1 align="center">Klaymon</h1>
 <p align="center">
    <a href="https://www.npmjs.com/package/klaymon"><img src="https://img.shields.io/npm/v/klaymon.svg?style=flat-square" /></a>
-   <a href="https://github.com/WekyDev/weky-npm/blob/main/LICENSE"><img src="https://nuggies.js.org/assets/img/license.ade17f5e.svg" /></a>
+   <a href="https://github.com/kayedaa/klaymon/blob/master/LICENSE"><img src="https://nuggies.js.org/assets/img/license.ade17f5e.svg" /></a>
    <br>
    <a href="https://www.npmjs.com/package/klaymon"><img src="https://nodei.co/npm/klaymon.png?downloadRank=true&downloads=true&downloadRank=true&stars=true" /></a>
 </p>
 
 ## What is klaymon?
 - A fun npm package to play games, send funny image/gifs and use utility commands!
-- You can find examples here: [Examples](https://github.com/kayedaa/klaymon-examples)
+- You can find examples here: [Examples](https://github.com/kayedaa/klaymon/tree/master/Examples)
 
 ## Features
 - 🧑 Beginner friendly
