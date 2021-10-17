@@ -22,6 +22,11 @@
 ```sh
 npm install klaymon
 ```
+Or
+
+```sh
+yarn add klaymon
+```
 
 ## Usage 📚
 ```js
