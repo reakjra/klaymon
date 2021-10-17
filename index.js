@@ -16,3 +16,5 @@ if(DJSVersion === '^13.1.0' || DJSVersion >= '^13.1.0') {
 } else {
   throw new TypeError('Klaymon Err: Please make sure to have Discord.js versions at: 13.1.0 or higher.');
 }
+
+//
