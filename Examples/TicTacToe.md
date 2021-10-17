@@ -20,4 +20,3 @@ const { TicTacToe } = require('klaymon')
 
   })
 
-```

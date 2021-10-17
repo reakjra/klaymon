@@ -10,4 +10,4 @@ await Reverse({
     message: message, // Message parameter / You can user interaction. See all the function that support slash commands on the docs.
     content: text, // the message content variable
 })
-```
+

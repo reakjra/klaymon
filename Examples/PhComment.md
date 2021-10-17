@@ -13,4 +13,4 @@ await PhComment({
     noNSFWcontent: "this channel doesnt support NSFW content", // Message content if the user try to use this in the message in a non-nsfw content (if NSFWchannel is `true`) 
     thoseEmbeds: true, // Put the noNSFWcontent into a embed description
     thoseEmbedsColor: `RED` // The noNSFWcontent embed's color
-})```
+})

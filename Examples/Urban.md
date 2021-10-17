@@ -18,4 +18,3 @@ if(!query) return message.reply("Please enter a search query")
     })
   
 
-```
