@@ -12,5 +12,4 @@ await RandomHexColor({
 })
 
 
-})
 
