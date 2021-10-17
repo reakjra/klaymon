@@ -55,6 +55,10 @@ interface rr {
 	opponent?: string;
 	winMessage?: string;
 }
+interface rhc {
+	message: Message;
+}
+
 
 
 declare module 'klaymon' {
@@ -65,4 +69,5 @@ declare module 'klaymon' {
 	export function RandomMeme(options: rmeme): void;
 	export function Urban(options: urban): void;
 	export function RoadRace(options: rr): void;
+	export function RandomHexColor(options: rhc): void;
 }
