@@ -1,4 +1,3 @@
-
 const DJSVersion = require('./package.json').dependencies['discord.js'] || require('./package.json').devDependencies['discord.js'];
 
 	

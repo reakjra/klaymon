@@ -57,6 +57,10 @@ interface rr {
 }
 interface rhc {
 	message: Message;
+	embed: {
+		color?: string;
+		footer?: string;
+	}
 }
 
 
