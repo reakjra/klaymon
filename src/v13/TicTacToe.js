@@ -116,7 +116,7 @@ const main_color = options.embed.color
                 gameCollector.on('collect', async btn => {
                         if (btn.customId == a11 && gameData[player].member.id === btn.user.id) {
                                 btn.deferUpdate();
-                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { // User tries to place at an already claimed spot
+                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { 
                                         btn.message.update('That spot is already occupied.')
                                 } else {
                                         try {
@@ -165,7 +165,7 @@ const main_color = options.embed.color
                                 }
                         } else if (btn.customId == a22 && gameData[player].member.id === btn.user.id) {
                                 btn.deferUpdate()
-                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { // User tries to place at an already claimed spot
+                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { 
                                         btn.message.update('That spot is already occupied.')
                                 } else {
                                         try {
@@ -214,7 +214,7 @@ const main_color = options.embed.color
                                 }
                         } else if (btn.customId == a33 && gameData[player].member.id === btn.user.id) {
                                 btn.deferUpdate()
-                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { // User tries to place at an already claimed spot
+                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { 
                                         btn.message.update('That spot is already occupied.')
                                 } else {
                                         try {
@@ -263,7 +263,7 @@ const main_color = options.embed.color
                                 }
                         } else if (btn.customId == b11 && gameData[player].member.id === btn.user.id) {
                                 btn.deferUpdate()
-                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { // User tries to place at an already claimed spot
+                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { 
                                         btn.message.update('That spot is already occupied.')
                                 } else {
 
@@ -313,7 +313,7 @@ const main_color = options.embed.color
                                 }
                         } else if (btn.customId == b22 && gameData[player].member.id === btn.user.id) {
                                 btn.deferUpdate()
-                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { // User tries to place at an already claimed spot
+                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { 
                                         btn.message.update('That spot is already occupied.')
                                 } else {
                                         try {
@@ -362,7 +362,7 @@ const main_color = options.embed.color
                                 }
                         } else if (btn.customId == b33 && gameData[player].member.id === btn.user.id) {
                                 btn.deferUpdate()
-                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { // User tries to place at an already claimed spot
+                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { 
                                         btn.message.update('That spot is already occupied.')
                                 } else {
                                         try {
@@ -411,7 +411,7 @@ const main_color = options.embed.color
                                 }
                         } else if (btn.customId == c11 && gameData[player].member.id === btn.user.id) {
                                 btn.deferUpdate()
-                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { // User tries to place at an already claimed spot
+                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) {
                                         btn.message.update('That spot is already occupied.')
                                 } else {
                                         try {
@@ -460,7 +460,7 @@ const main_color = options.embed.color
                                 }
                         } else if (btn.customId == c22 && gameData[player].member.id === btn.user.id) {
                                 btn.deferUpdate()
-                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { // User tries to place at an already claimed spot
+                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { 
                                         btn.message.update('That spot is already occupied.')
                                 } else {
                                         try {
@@ -509,7 +509,7 @@ const main_color = options.embed.color
                                 }
                         } else if (btn.customId == c33 && gameData[player].member.id === btn.user.id) {
                                 btn.deferUpdate()
-                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { // User tries to place at an already claimed spot
+                                if (btn.label == this.oEmoji || btn.label == this.xEmoji) { 
                                         btn.message.update('That spot is already occupied.')
                                 } else {
                                         try {
@@ -561,7 +561,7 @@ const main_color = options.embed.color
                                         ephemeral: true
                                 })
                         }
-                        //only edi the message if not the else executed
+                        
                         msg.edit({
                                 embeds: [Embed],
                                 components: [
