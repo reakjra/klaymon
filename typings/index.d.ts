@@ -63,6 +63,11 @@ interface rhc {
 	}
 }
 
+interface hangman {
+	message: Message;
+	words: object;
+}
+
 
 declare module 'klaymon' {
 
@@ -73,5 +78,5 @@ declare module 'klaymon' {
 	export function Urban(options: urban): void;
 	export function RoadRace(options: rr): void;
 	export function RandomHexColor(options: rhc): void;
-
+	export function Hangman(options: hangman): void;
 }

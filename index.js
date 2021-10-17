@@ -10,6 +10,7 @@ if(DJSVersion === '^13.1.0' || DJSVersion >= '^13.1.0') {
 		Urban : require('./src/v13/Urban'),
 		RoadRace : require('./src/v13/RoadRace'),
 		RandomHexColor : require('./src/v13/RandomHexColor'),
+		Hangman : require('./src/v13/Hangman')
 	
 	};
 } else {

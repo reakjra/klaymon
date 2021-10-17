@@ -1,43 +1,43 @@
 {
-  "name": "klaymon",
-  "version": "1.0.0",
-  "description": "A fun npm package to play games, send funny images/gif and use utility commands",
-  "main": "index.js",
-  "types": "typings/index.d.ts",
-  "keywords": [
-    "klaymon",
-    "discord-games",
-    "discord-utility"
-  ],
-  "scripts": {
-    "test": "nodemon test/test.js"
-  },
-  "author": "",
-  "license": "CC BY-NC-ND 4.0",
-  "dependencies": {
-    "canvas": "^2.8.0",
-    "chalk": "^4.1.2",
-    "discord.js": "^13.2.0",
-    "html-entities": "^2.3.2",
-    "mathjs": "^9.5.1",
-    "node-fetch": "^2.6.5",
-    "quick.db": "^7.1.3",
-    "relevant-urban": "^2.0.0",
-    "string-width": "^2.1.1"
-  },
-  "devDependencies": {
-    "axios": "^0.21.1",
-    "cheerio": "^1.0.0-rc.10",
-    "nodemon": "^2.0.12"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kayedaa/klaymon.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kayedaa/klaymon/issues"
-  }
+    "name": "klaymon",
+    "version": "1.0.0",
+    "description": "A fun npm package to play games, send funny images/gif and use utility commands",
+    "main": "index.js",
+    "types": "typings/index.d.ts",
+    "keywords": [
+        "klaymon",
+        "discord-games",
+        "discord-utility"
+    ],
+    "scripts": {
+        "test": "nodemon test/test.js"
+    },
+    "author": "",
+    "license": "CC BY-NC-ND 4.0",
+    "dependencies": {
+        "canvas": "^2.8.0",
+        "chalk": "^4.1.2",
+        "discord.js": "^13.2.0",
+        "html-entities": "^2.3.2",
+        "mathjs": "^9.5.1",
+        "node-fetch": "^2.6.5",
+        "quick.db": "^7.1.3",
+        "relevant-urban": "^2.0.0",
+        "string-width": "^2.1.1"
+    },
+    "devDependencies": {
+        "axios": "^0.21.1",
+        "cheerio": "^1.0.0-rc.10",
+        "nodemon": "^2.0.12"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kayedaa/klaymon.git"
+    },
+    "bugs": {
+        "url": "https://github.com/kayedaa/klaymon/issues"
+    }
 }
