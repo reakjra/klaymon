@@ -90,7 +90,7 @@ client.login('DISCORD_BOT_TOKEN');
 
 ## Contributing 🤝
 - Contributions, issues and feature requests are welcome!
-- Feel free to check **[issues page](https://github.com/kayedaa/klaymon-examples/issues)**.
+- Feel free to check **[issues page](https://github.com/kayedaa/klaymon/issues)**.
 
 ## Developers 👨‍💻
 - **[kayedaa#9473](https://github.com/kayedaa)**
