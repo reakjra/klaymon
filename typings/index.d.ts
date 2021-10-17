@@ -64,7 +64,6 @@ interface rhc {
 }
 
 
-
 declare module 'klaymon' {
 
 	export function TicTacToe(options: ttt): void;
@@ -74,4 +73,5 @@ declare module 'klaymon' {
 	export function Urban(options: urban): void;
 	export function RoadRace(options: rr): void;
 	export function RandomHexColor(options: rhc): void;
+
 }
