@@ -3,7 +3,7 @@
 ```js
 const { Urban } = require('klaymon')
 
-cosnt query = args.join(" ")
+const query = args.join(" ")
 if(!query) return message.reply("Please enter a search query")
    
       await Urban({ 
@@ -14,7 +14,7 @@ if(!query) return message.reply("Please enter a search query")
             color: "PURPLE", // Embed Color / DEFAULT: {random} VALUE {string}
             footer: "©️ Klaymon Development" // Embed Color / DEFAULT: {©️ Klaymon Development} VALUE {string}
         },
-        notFound: "Query not found", // Query not found message error / DEFAULT: {The search query was not found.} VALUE: {STRING}
+        notFound: "Query not found", // Query not found message error / DEFAULT: {The search query was not found.}
     })
   
 

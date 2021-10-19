@@ -65,7 +65,14 @@ interface rhc {
 
 interface hangman {
 	message: Message;
-	words: object;
+	client: Client;
+	words?: string;
+	button: {
+		color?: string;
+	}
+	winMessage?: string;
+	looseMessage?: string;
+    otherMessage?: string;
 }
 
 

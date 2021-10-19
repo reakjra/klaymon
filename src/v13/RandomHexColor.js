@@ -19,7 +19,7 @@ module.exports = async (options) => {
 	}
 
 
-    const canvas = createCanvas(256, 256);
+    const canvas = createCanvas(256, 125);
 	const ctx = canvas.getContext('2d');
 	const hex = functions.randomHexColor();
 	ctx.fillStyle = hex;
@@ -42,7 +42,7 @@ if(typeof options.embed.footer !== "string") {
 	const attachment = new Discord.MessageAttachment(canvas.toBuffer(), 'hex.png');
 	const Embed = new Discord.MessageEmbed()
 		.setColor(`${options.embed.color.replace(`{{hexColor}}`, hex)}`)
-		.setDescription(hex)
+		.setDescription(`**Hex**\n${hex}`)
 		.setImage('attachment://hex.png')
 	    .setFooter(`${options.embed.footer}`)
 		

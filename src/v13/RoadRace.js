@@ -82,9 +82,14 @@ module.exports = async (options) => {
                 if(typeof options.winMessage !== "string") {
                     throw new TypeError(`Klaymon Err: winMessage must be a string.`)
                 }
-                
+  
 
-				options.message.channel.send(`${options.winMessage.replace('{{whoWin}}', who.username)}`)
+				//options.message.channel.send(`${options.winMessage.replace( '<@{{whoWin}}>', `<@${who.id}>`)}`)
+				const obj = {
+					'<@{{whoWin}}>': `<@${who.id}>`,
+					'{{whoWin}}' : `${who.username}`
+				}
+				options.message.channel.send(`${options.winMessage.replace( /<@{{whoWin}}>|{{whoWin}}/g, match => obj[match])}`);
 			}
 
 			msg.edit({
@@ -92,7 +97,6 @@ module.exports = async (options) => {
 				components: componentsArray,
 			});
 		}
-
 		game.on('collect', async button => {
 			button.deferUpdate();
 			for(let i = 0; i < speed; i++) {
