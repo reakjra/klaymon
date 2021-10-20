@@ -1,13 +1,15 @@
 {
     "name": "klaymon",
-    "version": "1.0.0",
-    "description": "A fun npm package to play games, send funny images/gif and use utility commands",
+    "version": "1.0.6",
+    "description": "A fun npm package to play games, have fun, and use some cool functions for Discord.js",
     "main": "index.js",
     "types": "typings/index.d.ts",
     "keywords": [
         "klaymon",
         "discord-games",
-        "discord-utility"
+        "discord-utility",
+        "discord.js",
+        "fun"
     ],
     "scripts": {
         "test": "nodemon test/test.js"
@@ -17,7 +19,6 @@
     "dependencies": {
         "canvas": "^2.8.0",
         "chalk": "^4.1.2",
-        "discord.js": "^13.2.0",
         "html-entities": "^2.3.2",
         "mathjs": "^9.5.1",
         "node-fetch": "^2.6.5",

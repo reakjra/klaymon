@@ -9,14 +9,14 @@
 </p>
 
 ## What is klaymon?
-- A fun npm package to play games, send funny image/gifs and use utility commands!
+- A fun npm package to play games, have fun, and use some cool functions for Discord.js
 - You can find examples here: [Examples](https://github.com/kayedaa/klaymon/tree/master/Examples)
 
 ## Features
 - 🧑 Beginner friendly
 - 🎉 Easy to use
 - 🔘 Discord Buttons
-- 🤖 * ONLY *Supports Discord.js V13
+- 🤖 Supports Discord.js V13
 
 ## Install the package 📥
 ```sh
@@ -67,7 +67,7 @@ client.on('ready', async () => {
 });
 
 client.on('messageCreate', async (message) => {
-	if (message.content === '$tictactoe') {
+	if (message.content === '$ttt') {
 
 		 const opponent = message.mentions.users.first();
     if (!opponent) return message.reply(`You must tag a user!`);
