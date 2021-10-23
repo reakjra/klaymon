@@ -24,8 +24,8 @@ module.exports = async (options) => {
 
 		const positions = {
 			first: ':checkered_flag::eight_pointed_black_star::eight_pointed_black_star::eight_pointed_black_star::eight_pointed_black_star::checkered_flag:',
-			second: `                              :red_car: - <@${options.message.author.id}>`,
-			third: `                              :blue_car: - <@${options.opponent.id}>`,
+			second: `                                                      :red_car: - <@${options.message.author.id}>`,
+			third: `                                                       :blue_car: - <@${options.opponent.id}>`,
 			fourth: ':checkered_flag::eight_pointed_black_star::eight_pointed_black_star::eight_pointed_black_star::eight_pointed_black_star::checkered_flag:',
 		};
 		const blue = String(Math.random());
