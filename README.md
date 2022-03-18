@@ -103,7 +103,4 @@ client.login('DISCORD_BOT_TOKEN');
 
 
   
- <h1>👥 Contact us | Support</h1>
- <p>
-<a href="https://discord.gg/qFtU2g9Fa8"><img src="https://cdn.discordapp.com/attachments/899184649090265119/899193391370346496/Immagine_2021-10-17_091314.png" /></a>
-</p>
+
