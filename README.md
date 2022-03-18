@@ -98,7 +98,7 @@ client.login('DISCORD_BOT_TOKEN');
 - Feel free to check **[issues page](https://github.com/kayedaa/klaymon/issues)**.
 
 ## Developers 👨‍💻
-- **[kayedaa#9473](https://github.com/kayedaa)**
+- **[Sayukee#5643](https://github.com/Sayukee)**
 - **[LyoeX#6412](https://github.com/lyoex)**
 
 
